@@ -22,15 +22,15 @@ class Triangle
 
   end
 
-  def kosher_triangle 
+  def kosher_triangle
     x.positive? && y.positive? && z.positive?
-  end 
-  
-  def kosher_triangle2 
+  end
+
+  def kosher_triangle2
     x + y > z && x + z > y && y + z > x
   end
 
-  
+
 
 end
 
