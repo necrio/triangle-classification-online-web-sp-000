@@ -1,9 +1,9 @@
 class Triangle
-  def initialize(side_1,side_2,side_3)
-    @side_1 = side_1
-    @side_2 = side_2
-    @side_3 = side_3
-  end
+        def initialize(side_1,side_2,side_3)
+          @side_1 = side_1
+          @side_2 = side_2
+          @side_3 = side_3
+        end
 
   def kind()
     if (@side_1 <= 0) || (@side_2 <= 0) || (@side_3 <= 0)
@@ -20,7 +20,7 @@ class Triangle
       end
     end
 
-  end
+
 
   def kosher_triangle
     side_1.positive? && side_2.positive? && side_3.positive?
