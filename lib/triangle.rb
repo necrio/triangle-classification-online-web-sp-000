@@ -19,7 +19,7 @@ class Triangle
         :scalene
       end
     end
-
+end
 
 
   # def kosher_triangle
