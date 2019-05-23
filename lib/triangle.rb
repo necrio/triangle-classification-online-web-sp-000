@@ -25,7 +25,7 @@ class Triangle
   # def kosher_triangle
   #   side_1.positive? && side_2.positive? && side_3.positive?
   # end
-  # 
+  #
   # def kosher_triangle2
   #   side_1 + side_2 > side_3 && side_1 + side_3 > side_2 && side_2 + side_3 > side_1
   # end
